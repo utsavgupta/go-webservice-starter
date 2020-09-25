@@ -1,5 +1,7 @@
 # Go Web Service Starter Project
 
+[![Build Status](https://travis-ci.org/utsavgupta/go-webservice-starter.svg?branch=master)](https://travis-ci.org/utsavgupta/go-webservice-starter)
+
 The project provides a basic setup for writing web services in Go. 
 
 It uses the following external dependencies.
