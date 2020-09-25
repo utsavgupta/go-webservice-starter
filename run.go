@@ -35,7 +35,7 @@ func main() {
 
 	signal.Notify(intr, os.Interrupt)
 
-	globals.Logger.Infof(context.Background(), "Started server in %dms", time.Since(start)/time.Millisecond)
+	globals.Logger.Infof(context.Background(), "Started server in %dms. Listening to requests on port %d.", time.Since(start)/time.Millisecond, globals.Config.Port)
 
 	select {
 	case i := <-intr:
